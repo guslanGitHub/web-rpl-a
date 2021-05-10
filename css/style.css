@@ -61,24 +61,36 @@
   text-align: center;
   padding: 100px;
 }
-
 .title-jumbotron {
-  font-size: 70px;
-  margin-top: 100px;
+  font-size: 60px;
+  padding-top: 100px;
+  text-shadow: 3px -3px 3px rgb(235, 27, 27);
 }
+
 .paragraf {
-  font-size: 38px;
+  font-size: 28px;
+  font-weight: 700;
   font-family: sans-serif;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
+
 .tombol {
-  display: block;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: tomato;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  font-weight: 700;
   color: white;
-  font-weight: bold;
-  width: 150px;
-  margin: auto;
+  border: none;
+  border-radius: 40px;
+  background-color: tomato;
+}
+.tombol:hover {
+  cursor: pointer;
+  text-shadow: 0 0 5px rgb(212, 210, 210);
+  box-shadow: 0 0 3px 3px white;
 }
 .clear {
   clear: both;
